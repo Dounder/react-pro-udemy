@@ -1,0 +1,3 @@
+[submodule "lazyload-routes"]
+	path = lazyload-routes
+	url = git@github.com:Dounder/react-initial-template.git
