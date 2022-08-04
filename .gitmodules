@@ -1,3 +1,6 @@
 [submodule "lazyload-routes"]
 	path = lazyload-routes
 	url = git@github.com:Dounder/react-initial-template.git
+[submodule "npm-deploy"]
+	path = npm-deploy
+	url = https://github.com/Dounder/dr-pr-test
