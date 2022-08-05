@@ -4,3 +4,6 @@
 [submodule "npm-deploy"]
 	path = npm-deploy
 	url = https://github.com/Dounder/dr-pr-test
+[submodule "storybook"]
+	path = storybook
+	url = https://github.com/Dounder/sb-components
