@@ -1,0 +1,53 @@
+[
+	{
+		"type": "text",
+		"name": "firstName",
+		"placeholder": "John",
+		"label": "First Name",
+		"value": "",
+		"validation": [
+			{ "type": "required", "message": "This field is required" },
+			{ "type": "min", "value": 2, "message": "This field must be at least 2 characters long" }
+		]
+	},
+	{
+		"type": "text",
+		"name": "lastName",
+		"placeholder": "Doe",
+		"label": "Last Name",
+		"value": "",
+		"validation": [
+			{ "type": "required", "message": "This field is required" },
+			{ "type": "min", "value": 2, "message": "This field must be at least 2 characters long" }
+		]
+	},
+	{
+		"type": "email",
+		"name": "email",
+		"placeholder": "john.doe@email.com",
+		"label": "Email address",
+		"value": "",
+		"validation": [
+			{ "type": "required", "message": "This field is required" },
+			{ "type": "email", "message": "This field must be a valid email address" }
+		]
+	},
+	{
+		"type": "select",
+		"name": "favGame",
+		"label": "Favorite Game",
+		"value": "",
+		"options": [
+			{ "value": "csgo", "label": "CS:GO" },
+			{ "value": "dota2", "label": "Dota 2" },
+			{ "value": "lol", "label": "League of Legends" },
+			{ "value": "overwatch", "label": "Overwatch" },
+			{ "value": "pubg", "label": "PUBG" },
+			{ "value": "rocketleague", "label": "Rocket League" },
+			{ "value": "starcraft2", "label": "Starcraft 2" },
+			{ "value": "starwars", "label": "Star Wars" },
+			{ "value": "warcraft", "label": "Warcraft" }
+		],
+		"validation": [{ "type": "required", "message": "This field is required" }]
+	}
+]

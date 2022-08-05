@@ -10,7 +10,7 @@ interface Props {
 
 interface Option {
 	value: string
-	name: string
+	label: string
 }
 
 export const MySelect = ({ label, placeholder = 'Pick something...', ...props }: Props) => {
@@ -18,15 +18,15 @@ export const MySelect = ({ label, placeholder = 'Pick something...', ...props }:
 
 	return (
 		<>
-			<label htmlFor='jobType'>Job Type</label>
+			<label htmlFor='jobType'>{label}</label>
 			{props.options ? (
 				<select {...field} {...props}>
 					<option value='' hidden>
 						{placeholder}
 					</option>
-					{props.options.map(({ value, name }) => (
+					{props.options.map(({ value, label }) => (
 						<option key={value} value={value}>
-							{name}
+							{label}
 						</option>
 					))}
 				</select>
