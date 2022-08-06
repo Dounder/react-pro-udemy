@@ -3,10 +3,10 @@
 	url = git@github.com:Dounder/react-initial-template.git
 [submodule "npm-deploy"]
 	path = npm-deploy
-	url = https://github.com/Dounder/dr-pr-test
+	url = https://github.com/Dounder/dr-pr-test/tree/main
 [submodule "storybook"]
 	path = storybook
-	url = https://github.com/Dounder/sb-components
+	url = https://github.com/Dounder/sb-components/tree/main
 [submodule "maps-app"]
 	path = maps-app
-	url = https://github.com/Dounder/react-maps-app
+	url = https://github.com/Dounder/react-maps-app/tree/main
