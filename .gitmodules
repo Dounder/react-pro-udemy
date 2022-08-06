@@ -7,3 +7,6 @@
 [submodule "storybook"]
 	path = storybook
 	url = https://github.com/Dounder/sb-components
+[submodule "maps-app"]
+	path = maps-app
+	url = https://github.com/Dounder/react-maps-app
